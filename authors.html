@@ -88,7 +88,7 @@
       }
     </style>
   </head>
-  <body>
+ <body>
     <nav>
     <a href="index.html">Back to Main Page</a>
     </nav>
@@ -97,47 +97,12 @@
       <header>
         Classic Breach Authors
       </header>
-<section>
-  <div class="authors-list">
-    <a href="https://steamcommunity.com/id/77zaro" 
-       target="_blank" rel="noopener noreferrer" 
-       class="authors-item" data-steam="id/77zaro">
-       <abbr title="Main Developer">Dragon4k</abbr>
-    </a>      
-    <a href="https://steamcommunity.com/profiles/76561198995203527" 
-       target="_blank" rel="noopener noreferrer" 
-       class="authors-item" data-steam="profiles/76561198995203527">
-       <abbr title="Developer and Page Creator">gracz scp (prorock)</abbr>
-    </a>      
-  </div>
-</section>
-
-<script>
-  async function fetchSteamAvatar(el) {
-    const steamPath = el.dataset.steam;
-    try {
-      const res = await fetch(`https://steamcommunity.com/${steamPath}?xml=1`);
-      const text = await res.text();
-      const parser = new DOMParser();
-      const xml = parser.parseFromString(text, "application/xml");
-      const avatar = xml.querySelector("avatarFull");
-      if (avatar) {
-        const img = document.createElement("img");
-        img.src = avatar.textContent;
-        img.alt = "Steam Avatar";
-        img.style.width = "32px";
-        img.style.height = "32px";
-        img.style.borderRadius = "50%";
-        img.style.marginRight = "8px";
-        el.prepend(img);
-      }
-    } catch (err) {
-      console.error("Błąd pobierania avatara:", err);
-    }
-  }
-
-  document.querySelectorAll(".authors-item").forEach(fetchSteamAvatar);
-</script>
+      <section>
+        <div class="authors-list">
+          <a href="https://steamcommunity.com/id/77zaro" target="_blank" rel="noopener noreferrer" class="authors-item"><abbr title="Main Developer">Dragon4k</abbr></a>      
+          <a href="https://steamcommunity.com/profiles/76561198995203527" target="_blank" rel="noopener noreferrer" class="authors-item"><abbr title="Developer and Page Creator">gracz scp (prorock)</abbr></a>      
+        </div>
+      </section>
     </main>
   </body>
 </html>
