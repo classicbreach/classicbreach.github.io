@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="icon24.png" type="image/x-icon">
+  <title>Classic Breach ChangeLog (Ver. - Alpha|Beta)</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Trebuchet MS, sans-serif;
+      display: flex;
+      height: 100vh;
+      background-color: #111;
+      color: #fff;
+    }
+
+    /* Lewy panel menu */
+    nav {
+      width: 300px;
+      background-color: #1c1c1c;
+      padding-top: 400px;
+      box-shadow: 2px 0 5px rgba(0,0,0,0.4);
+    }
+
+    nav a {
+      display: block;
+      padding: 11px 50px;
+      margin: 10px;
+      background: #111;
+      border: 1px solid #444;
+      border-radius: 6px;
+      text-decoration: none;
+      color: #fff;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      background-color: #333;
+      border-color: #666;
+    }
+
+    /* Główna sekcja */
+    main {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+    }
+
+    header {
+      background: #222;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      font-size: 1.5rem;
+      font-weight: bold;
+      border-bottom: 1px solid #444;
+    }
+
+    section {
+      flex: 1;
+      display: flex;
+      justify-content: center;   /* wyśrodkowanie w poziomie */
+      align-items: center;       /* wyśrodkowanie w pionie */
+      text-align: left;
+    }
+
+    /* Lista changelogów */
+    .changelog {
+      max-width: 1000px;
+        background: #1c1c1c;
+      padding: 30px 40px;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.5);
+      font-size: 1.2rem;
+      line-height: 1.8;
+    }
+
+    .changelog h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #ffd700;
+    }
+
+    .changelog ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .changelog ul li::before {
+      content: "• ";
+      color: #ffd700; /* złote punkty */
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="index.html">Back to Main Page</a>
+    <a href="changelogs.html">Back to Changelogs</a>
+  </nav>
+
+  <main>
+    <header>
+      Classic Breach ChangeLog (Ver. - Alpha|Beta)
+    </header>
+    <section>
+      <div class="changelog">
+        <h2>Changes</h2>
+        <ul>
+          <li>Added compatibility to old map</li>
+          <li>Added new screenshots (backgrounds) in main menu</li>
+          <li>Modified Logo in main menu</li>
+          <li>Fixed little bugs</li>
+          <li>Fixed Spectator interact to all buttons</li>
+          <li>Fixed SCP-914</li>
+          <li>Fixed keycards to open door’s/Gate’s</li>
+          <li>Fixed SCP-173 Model</li>
+          <li>Fixed small bug with doors</li>
+          <li>Little fix in Polish translation</li>
+          <li>Added new UI sound</li>
+          <li>Added SCP-035</li>
+          <li>Changed workshop icon</li>
+          <li>Class D and SCP-035 now have flashlight</li>
+          <li>Changed SCP-035 speed</li>
+          <li>Added new screenshot to workshop</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
