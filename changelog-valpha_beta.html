@@ -10,7 +10,6 @@
       margin: 0;
       font-family: Trebuchet MS, sans-serif;
       display: flex;
-      height: 100vh;
       background-color: #111;
       color: #fff;
     }
@@ -19,14 +18,23 @@
     nav {
       width: 300px;
       background-color: #1c1c1c;
-      padding-top: 400px;
       box-shadow: 2px 0 5px rgba(0,0,0,0.4);
+      position: fixed;         /* pasek zawsze przyklejony */
+      top: 0;
+      left: 0;
+      bottom: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center; /* wyśrodkowanie linków w pionie */
+      align-items: center;     /* wyśrodkowanie w poziomie */
     }
 
     nav a {
       display: block;
-      padding: 11px 50px;
-      margin: 10px;
+      width: 70%;
+      text-align: center;
+      padding: 11px 20px;
+      margin: 10px 0;
       background: #111;
       border: 1px solid #444;
       border-radius: 6px;
@@ -43,6 +51,7 @@
 
     /* Główna sekcja */
     main {
+      margin-left: 300px; /* zostaw miejsce na pasek */
       flex: 1;
       display: flex;
       flex-direction: column;
@@ -64,6 +73,7 @@
       justify-content: center;   /* wyśrodkowanie w poziomie */
       align-items: center;       /* wyśrodkowanie w pionie */
       text-align: left;
+      padding: 40px;
     }
 
     /* Lista changelogów */
@@ -96,8 +106,8 @@
 </head>
 <body>
   <nav>
-    <a href="index.html">Back to Main Page</a>
     <a href="changelogs.html">Back to Changelogs</a>
+    <a href="index.html">Back to Main Page</a>
   </nav>
 
   <main>
