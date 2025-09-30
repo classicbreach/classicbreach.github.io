@@ -11,7 +11,7 @@
       font-family: Trebuchet MS, sans-serif;
       display: flex;
       background-color: #111;
-      color: #fff;
+       color: #ffd700;
     }
 
     /* Lewy panel menu */
@@ -39,7 +39,7 @@
       border: 1px solid #444;
       border-radius: 6px;
       text-decoration: none;
-      color: #fff;
+       color: #ffd700;
       font-weight: bold;
       transition: 0.3s;
     }
@@ -91,7 +91,22 @@
   background: #1c1c1c;
   border: 1px solid #333;
   border-radius: 8px;
-  color: #fff;
+   color: #ffd700;
+  text-decoration: none;
+  font-size: 1.5rem;
+  transition: 0.3s;
+  text-align: center;    /* wyśrodkowanie tekstu */
+}
+
+.back-item {
+  display: block;
+  width: 100%;            /* szerokość względem sekcji */
+  max-width: 1200px;     /* docelowo ~4x większe */
+  padding: 20px 40px;    /* zwiększony padding */
+  background: #1c1c1c;
+  border: 1px solid #333;
+  border-radius: 8px;
+   color: #ffff;
   text-decoration: none;
   font-size: 1.5rem;
   transition: 0.3s;
@@ -109,7 +124,7 @@
 </head>
 <body>
   <nav>
-    <a href="../index.html">Back to Main Page</a>
+    <a href="index.html">Back to Main Page</a>
 
   </nav>
 
@@ -137,7 +152,7 @@
         <a href="changelogs/changelog-v1.1.html" class="changelog-item">Ver. - 1.1</a>
         <a href="changelogs/changelog-v1.0.html" class="changelog-item">Ver. - 1.0</a>
         <a href="changelogs/changelog-valpha_beta.html" class="changelog-item">Ver. - Alpha|Beta</a>
-        <a href="#top" class="changelog-item">Back to start</a>
+        <a href="#top" class="back-item">Back to start</a>
       </div>
     </section>
   </main>
