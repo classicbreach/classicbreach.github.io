@@ -1,0 +1,53 @@
+@import url('shared.css');
+
+/* Lista changelogów */
+.changelog-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+}
+
+/* Kafelki z changelogami */
+.changelog-item {
+  display: block;
+  width: 100%;
+  max-width: 1200px;
+  padding: 20px 100px;
+  background: #1c1c1c;
+  border: 1px solid #333;
+  border-radius: 8px;
+  color: #ffd700;
+  text-decoration: none;
+  font-size: 1.5rem;
+  transition: 0.3s;
+  text-align: center;
+}
+
+.changelog-item:hover {
+  background: #2a2a2a;
+  border-color: #555;
+  transform: translateX(5px);
+}
+
+/* Przyciski "Back to start" */
+.back-item {
+  display: block;
+  width: 100%;
+  max-width: 1200px;
+  padding: 20px 40px;
+  background: #1c1c1c;
+  border: 1px solid #333;
+  border-radius: 8px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.5rem;
+  transition: 0.3s;
+  text-align: center;
+}
+
+.back-item:hover {
+  background: #2a2a2a;
+  border-color: #555;
+  transform: translateX(5px);
+}

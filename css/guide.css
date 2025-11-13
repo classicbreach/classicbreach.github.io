@@ -1,0 +1,30 @@
+@import url('shared.css');
+
+/* Lista przewodników */
+.guide-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Kafelki z przewodnikami */
+.guide-item {
+  display: block;
+  width: 100%;
+  max-width: 1200px;
+  padding: 20px 100px;
+  background: #1c1c1c;
+  border: 1px solid #333;
+  border-radius: 8px;
+  color: #ffd700;
+  text-decoration: none;
+  font-size: 1.5rem;
+  transition: 0.3s;
+  text-align: center;
+}
+
+.guide-item:hover {
+  background: #2a2a2a;
+  border-color: #555;
+  transform: translateX(5px);
+}
