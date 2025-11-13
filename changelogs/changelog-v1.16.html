@@ -5,110 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="shortcut icon" href="images/icon.png" type="image/x-icon">
   <title>Classic Breach Changelog (Ver. - 1.16) [18.08.2024 - 15.07.2025]</title>
- <style>
-    body {
-      margin: 0;
-      font-family: Trebuchet MS, sans-serif;
-      display: flex;
-      background-color: #111;
-       color: #ffff;
-    }
-
-    /* Lewy panel menu */
-    nav {
-      width: 300px;
-      background-color: #1c1c1c;
-      box-shadow: 2px 0 5px rgba(0,0,0,0.4);
-      position: fixed;         /* pasek zawsze przyklejony */
-      top: 0;
-      left: 0;
-      bottom: 0;
-      display: flex;
-      flex-direction: column;
-      justify-content: center; /* wyśrodkowanie linków w pionie */
-      align-items: center;     /* wyśrodkowanie w poziomie */
-    }
-
-    nav a {
-      display: block;
-      width: 70%;
-      text-align: center;
-      padding: 11px 20px;
-      margin: 10px 0;
-      background: #111;
-      border: 1px solid #444;
-      border-radius: 6px;
-      text-decoration: none;
-       color: #ffd700;
-      font-weight: bold;
-      transition: 0.3s;
-    }
-
-    nav a:hover {
-      background-color: #333;
-      border-color: #666;
-    }
-
-    /* Główna sekcja */
-    main {
-      margin-left: 300px; /* zostaw miejsce na pasek */
-      flex: 1;
-      display: flex;
-      flex-direction: column;
-    }
-
-    header {
-      background: #222;
-      color: white;
-      text-align: center;
-      padding: 20px;
-      font-size: 1.5rem;
-      font-weight: bold;
-      border-bottom: 1px solid #444;
-    }
-
-    section {
-      flex: 1;
-      display: flex;
-      justify-content: center;   /* wyśrodkowanie w poziomie */
-      align-items: center;       /* wyśrodkowanie w pionie */
-      text-align: left;
-      padding: 40px;
-    }
-
-    /* Lista changelogów */
-    .changelog {
-      max-width: 1000px;
-      background: #1c1c1c;
-      padding: 30px 40px;
-      border-radius: 10px;
-      box-shadow: 0 0 15px rgba(0,0,0,0.5);
-      font-size: 1.2rem;
-      line-height: 1.8;
-    }
-
-    .changelog h2 {
-      text-align: center;
-      margin-bottom: 20px;
-      color: #ffd700;
-    }
-
-    .changelog ul {
-      list-style: none;
-      padding: 0;
-    }
-
-    .changelog ul li::before {
-      content: "• ";
-      color: #ffd700; /* złote punkty */
-    }
-  </style>
+  <link rel="stylesheet" href="../css/changelogshared.css">
 </head>
 <body>
   <nav>
+    <a href="changelog-v1.15.html">Poprzedni Changelog</a>
+    <br><br><br><br><br> 
     <a href="../changelogs.html">Back to Changelogs</a>
     <a href="../index.html">Back to Main Page</a>
-
   </nav>
 
   <main>
@@ -118,7 +22,7 @@
     <section>
       <div class="changelog">
         <h2>Changes</h2>
-        <ul>
+          <ul>
             <li>Added SCP-096</li>
             <li>Added SCP-939</li>
             <li>Added SCP-714</li>
@@ -130,220 +34,220 @@
             <li>Added chattext's for SCP-500</li>
             <li>Added new better SweetFX (br_livecolors)</li>
             <li>Added new spawns for pistols (gm_site19_old)</li>
-            <li>Added new spawns for pistols ammo (gm_site19_old)</li>
-            <li>Added new spawns for smg ammo (gm_site19_old)</li>
-            <li>Added new spawns for rifle ammo (gm_site19_old)</li>
-            <li>Added new spawns for pistols (gm_site19_v43)</li>
-            <li>Added new spawns for pistols ammo (gm_site19_v43)</li>
-            <li>Added new spawns for smg ammo (gm_site19_v43)</li>
-            <li>Added new spawns for rifle ammo (gm_site19_v43)</li>
-            <li>Added spawns for zombies (gm_site19_v43)</li>
-            <li>Added translations for scoreboard (all languages)</li>
-            <li>Added translations for S-NAV Ultimate/Radio (all languages)</li>
+            <li>Added new spawns for pistols ammo (gm_site19_old)</li> 
+            <li>Added new spawns for smg ammo (gm_site19_old)</li> 
+            <li>Added new spawns for rifle ammo (gm_site19_old)</li> 
+            <li>Added new spawns for pistols (gm_site19_v43)</li> 
+            <li>Added new spawns for pistols ammo (gm_site19_v43)</li> 
+            <li>Added new spawns for smg ammo (gm_site19_v43)</li> 
+            <li>Added new spawns for rifle ammo (gm_site19_v43)</li> 
+            <li>Added spawns for zombies (gm_site19_v43)</li> 
+            <li>Added translations for scoreboard (all languages)</li> 
+            <li>Added translations for S-NAV Ultimate/Radio (all languages)</li> 
             <li>Added translations for SCP-173/SCP-106/SCP-049 SWEP (all languages)</li>
-            <li>Added translations for chattexts (SweetFX "br_livecolors" , Thirdperson "br_thirdperson_toggle")</li>
-            <li>Added some changes to Polish translation</li>
-            <li>Added some changes to English translation</li>
-            <li>Added sound when changing the radio channels</li>
-            <li>Added classic MTF announcement</li>
-            <li>Added two new MTF announcements</li>
-            <li>Added announcement about SCP-049 contained</li>
-            <li>Added announcement about SCP-106 contained</li>
+            <li>Added translations for chattexts (SweetFX "br_livecolors" , Thirdperson "br_thirdperson_toggle")</li> 
+            <li>Added some changes to Polish translation</li> 
+            <li>Added some changes to English translation</li> 
+            <li>Added sound when changing the radio channels</li> 
+            <li>Added classic MTF announcement</li> 
+            <li>Added two new MTF announcements</li> 
+            <li>Added announcement about SCP-049 contained</li> 
+            <li>Added announcement about SCP-106 contained</li> 
             <li>Added announcement about SCP-173 contained</li>
-            <li>Added announcement about SCP-096 contained</li>
-            <li>Added announcement about SCP-939 contained</li>
-            <li>Added new hands textures for Class D/SCP-035/MTF/CI</li>
-            <li>Added all Weapons to the gamemode files (if don't have CS:S)</li>
-            <li>Added missing effects</li>
-            <li>Added missing vest sounds (if don't have HL2:EP2)</li>
-            <li>Added viewmodel for SCP-420-J</li>
-            <li>Added viewmodel for Keycards</li>
-            <li>Added new Keycards UI icons</li>
-            <li>Added new skin for MTF Commander (with vest)</li>
-            <li>Added new skin for MTF Commander (without vest)</li>
-            <li>Added new skin for MTF Guard (without vest)</li>
-            <li>Added new skin for Chaos Insurgency (with vest)</li>
-            <li>Added new skin for Chaos Insurgency (without vest)</li>
-            <li>Added new skin for Hazmat vest</li>
-            <li>Added new shot sound for TMP</li>
-            <li>Added new shot sound for P90</li>
-            <li>Added missing sound for secret</li>
-            <li>Added new screenshot's in workshop</li>
-            <li>Changed scoreboard to the classic one</li>
-            <li>Changed gamemode icon to the classic one</li>
-            <li>Changed SCP-049-02 model to the classic one</li>
-            <li>Changed SCP-173 damage from 100 to 1000</li>
-            <li>Changed SCP-049-2 secondary attack damage from 125 to 85</li>
-            <li>Changed chat texts (MTF Announcement etc.)</li>
-            <li>Changed SCP-035 spawn</li>
-            <li>Changed workshop icon</li>
-            <li>Changed gamemode description on workshop</li>
-            <li>Changed logo in main menu</li>
-            <li>Changed thirdperson console command</li>
-            <li>Changed "Credits" tab (F4)</li>
-            <li>Changed "Roles" tabs (F4)</li>
-            <li>Removed some ambients</li>
-            <li>Removed bell sounds</li>
+            <li>Added announcement about SCP-096 contained</li> 
+            <li>Added announcement about SCP-939 contained</li> 
+            <li>Added new hands textures for Class D/SCP-035/MTF/CI</li> 
+            <li>Added all Weapons to the gamemode files (if don't have CS:S)</li> 
+            <li>Added missing effects</li> 
+            <li>Added missing vest sounds (if don't have HL2:EP2)</li> 
+            <li>Added viewmodel for SCP-420-J</li> 
+            <li>Added viewmodel for Keycards</li> 
+            <li>Added new Keycards UI icons</li> 
+            <li>Added new skin for MTF Commander (with vest)</li> 
+            <li>Added new skin for MTF Commander (without vest)</li> 
+            <li>Added new skin for MTF Guard (without vest)</li> 
+            <li>Added new skin for Chaos Insurgency (with vest)</li> 
+            <li>Added new skin for Chaos Insurgency (without vest)</li> 
+            <li>Added new skin for Hazmat vest</li> 
+            <li>Added new shot sound for TMP</li> 
+            <li>Added new shot sound for P90</li> 
+            <li>Added missing sound for secret</li> 
+            <li>Added new screenshot's in workshop</li> 
+            <li>Changed scoreboard to the classic one</li> 
+            <li>Changed gamemode icon to the classic one</li> 
+            <li>Changed SCP-049-02 model to the classic one</li> 
+            <li>Changed SCP-173 damage from 100 to 1000</li> 
+            <li>Changed SCP-049-2 secondary attack damage from 125 to 85</li> 
+            <li>Changed chat texts (MTF Announcement etc.)</li> 
+            <li>Changed SCP-035 spawn</li> 
+            <li>Changed workshop icon</li> 
+            <li>Changed gamemode description on workshop</li> 
+            <li>Changed logo in main menu</li> 
+            <li>Changed thirdperson console command</li> 
+            <li>Changed "Credits" tab (F4)</li> 
+            <li>Changed "Roles" tabs (F4)</li> 
+            <li>Removed some ambients</li> 
+            <li>Removed bell sounds</li> 
             <li>Removed "chinese, czech, french, german, italian, portuguese, romanian, russian" translations</li>
-            <li>Removed "Blinking Time" option in main menu</li>
+            <li>Removed "Blinking Time" option in main menu</li> 
             <li>Removed "br_disableallhud" command from console</li>
-            <li>Removed "a" strings in console when someone is making damage (CLIENT)</li>
-            <li>Removed "a" strings in console when equipping vest (CLIENT)</li>
+            <li>Removed "a" strings in console when someone is making damage (CLIENT)</li> 
+            <li>Removed "a" strings in console when equipping vest (CLIENT)</li> 
             <li>Removed thirdperson strings in console when enabling and disabling (CLIENT)</li>
-            <li>Fixed Deagle</li>
-            <li>Fixed little bugs</li>
+            <li>Fixed Deagle</li> 
+            <li>Fixed little bugs</li> 
             <li>Fixed SCP-035 translation</li>
-            <li>Fixed Spectator translation</li>
+            <li>Fixed Spectator translation</li> 
             <li>Fixed remote opening Gate A by "Mobile Task Force Manager" as MTF/CI</li>
-            <li>Fixed armor type for NTF vest</li>
-            <li>Fixed MTF/CI spawns on outside (gm_site19_v43)</li>
-            <li>Fixed Class D spawns on outside (gm_site19_v43)</li>
-            <li>Fixed Researcher spawns on outside (gm_site19_v43)</li>
-            <li>Fixed spawns for medkits (gm_site19_v43)</li>
-            <li>Fixed spawns for misc items (gm_site19_v43)</li>
-            <li>Fixed spawns for SCP-420-J (gm_site19_v43)</li>
-            <li>Fixed spawns for SCP-500 (gm_site19_v43)</li>
-            <li>Fixed spawns for medkits (gm_site19_v43)</li>
-            <li>Fixed spawns for medkits (gm_site19_v43)</li>
-            <li>Fixed spawns for medkits (gm_site19_v43)</li>
-            <li>Fixed spawns for pistols ammo (gm_site19_v43)</li>
-            <li>Fixed spawns for smg ammo (gm_site19_v43)</li>
-            <li>Fixed spawns for rifle ammo (gm_site19_v43)</li>
-            <li>Fixed spawns for smg ammo (gm_site19_v43)</li>
-            <li>Fixed spawns for rifle ammo (gm_site19_v43)</li>
-            <li>Fixed spawns for armors (gm_site19_v43)</li>
-            <li>Fixed buttons locations (gm_site19_v43)</li>
-            <li>Fixed SCP spawns (gm_site19_v43)</li>
-            <li>Fixed Keycard 1 drop after infected someone</li>
-            <li>Fixed the SCP-173 special attack, now can't blind Spectator</li>
-            <li>Fixed SCP-500 not disappearing after healing someone</li>
-            <li>Classic Breach: Update ---> Classic Breach</li>
-            <li>Balanced all weapons</li>
-            <li>Deagle now spawns again</li>
-            <li>Medkit now restore only 50 HP</li>
+            <li>Fixed armor type for NTF vest</li> 
+            <li>Fixed MTF/CI spawns on outside (gm_site19_v43)</li> 
+            <li>Fixed Class D spawns on outside (gm_site19_v43)</li> 
+            <li>Fixed Researcher spawns on outside (gm_site19_v43)</li> 
+            <li>Fixed spawns for medkits (gm_site19_v43)</li> 
+            <li>Fixed spawns for misc items (gm_site19_v43)</li> 
+            <li>Fixed spawns for SCP-420-J (gm_site19_v43)</li> 
+            <li>Fixed spawns for SCP-500 (gm_site19_v43)</li> 
+            <li>Fixed spawns for medkits (gm_site19_v43)</li> 
+            <li>Fixed spawns for medkits (gm_site19_v43)</li> 
+            <li>Fixed spawns for medkits (gm_site19_v43)</li> 
+            <li>Fixed spawns for pistols ammo (gm_site19_v43)</li> 
+            <li>Fixed spawns for smg ammo (gm_site19_v43)</li> 
+            <li>Fixed spawns for rifle ammo (gm_site19_v43)</li> 
+            <li>Fixed spawns for smg ammo (gm_site19_v43)</li> 
+            <li>Fixed spawns for rifle ammo (gm_site19_v43)</li> 
+            <li>Fixed spawns for armors (gm_site19_v43)</li> 
+            <li>Fixed buttons locations (gm_site19_v43)</li> 
+            <li>Fixed SCP spawns (gm_site19_v43)</li> 
+            <li>Fixed Keycard 1 drop after infected someone</li> 
+            <li>Fixed the SCP-173 special attack, now can't blind Spectator</li> 
+            <li>Fixed SCP-500 not disappearing after healing someone</li> 
+            <li>Classic Breach: Update ---> Classic Breach</li> 
+            <li>Balanced all weapons</li> 
+            <li>Deagle now spawns again</li> 
+            <li>Medkit now restore only 50 HP</li> 
             <li>Spectator now can't wear vests</li>
-            <li>Fireproof vest now works correct</li>
-            <li>Now CBU logo appears on scoreboard</li>
-            <li>Gate B is only accessible with Keycard Level 5</li>
-            <li>Camera has been adjusted to SCP-173's model (as SCP-173)</li>
-            <li>SCP-106 is now harder to kill</li>
-            <li>SCP-714 can be used to heal or protect against SCP-049, but has some durability</li>
-            <li>SCP-500 now shows at 2 slot at weapon selector</li>
-            <li>SCP-420-J now shows at 2 slot at weapon selector</li>
-            <li>SCP-035 now cannot be infected by SCP-049</li>
-            <li>SCP-035 now cannot be escorted by Chaos Insurgency</li>
-            <li>Room SCP 012 now need Keycard 2 (gm_site19_old, gm_site19_v43)</li>
-            <li>Room SCP 205 now need Keycard 2 (gm_site19_old, gm_site19_v43)</li>
-            <li>Room SCP 035 now need Keycard 3 (gm_site19_old, gm_site19_v43)</li>
-            <li>Ammo for SCP-035 deagle now are in clip automatically</li>
-            <li>NTF and CI now have more ammo in clips</li>
-            <li>Now only SCP's and Spectators see other specific SCP on the scoreboard</li>
-            <li>Round again ends when there's only CI and SCP</li>
-            <li>CI are visible for Class D and Spectators on the scoreboard</li>
-            <li>SCP-049 viewmodel hands will no longer appear being as a different class</li>
-            <li>Now MTF-NTF can spawn 20 times during round in 5 people groups max.</li>
-            <li>Increased from "100" to "200" HP regeneration for SCP-106 after sending someone to Pocket Dimension</li>
-            <li>Added new model for SCP-096</li>
-            <li>Added new model for SCP-939</li>
-            <li>Fixed SCP-096 viewmodel</li>
-            <li>Fixed S-NAV Ultimate translation (English)</li>
-            <li>SCP-939 now can heal 30 hp by attacking</li>
-            <li>SCP-457 now can heal 20 hp every second when burn someone</li>
-            <li>Added viewmodel for Medkit</li>
-            <li>Added viewmodel for SCP-500</li>
-            <li>Added SCP-714 UI icon</li>
-            <li>Added SCP-096 UI icon</li>
-            <li>Added SCP-939 UI icon</li>
-            <li>Changed translations for "Guard" and "Security Chief"</li>
-            <li>Changed round preparing time from "45 sec" to "60 sec"</li>
-            <li>Changed round time from "32 min" to "45 min"</li>
-            <li>Changed keycard level 4 spawns from "2" to "4"</li>
-            <li>Fixed SCP-420-J textures, viewmodel and animation</li>
-            <li>Fixed Radio model</li>
-            <li>Fixed SCP-939 model</li>
-            <li>Fixed round time (34 min 07 sec., more time gonna break timer)</li>
-            <li>Added SCP-049-2 to forceclass (ULX)</li>
-            <li>Added translation for MTF/CI Menu (Polish)</li>
-            <li>Changed SCP-049 translation (all languages)</li>
-            <li>Changed SCP-049-2 translation (all languages)</li>
-            <li>Changed SCP-096 translation (all languages)</li>
-            <li>Changed SCP-106 translation (all languages)</li>
-            <li>Changed SCP-173 translation (all languages)</li>
-            <li>Changed SCP-939 translation (all languages)</li>
-            <li>Fixed Keycard 1 LUA error</li>
-            <li>Added dropvest option in MTF/CI Menu</li>
-            <li>Added new low HP effect from the newer Breach version</li>
-            <li>Added new SCP-049-2 model</li>
-            <li>Added new SCP-035 viewmodel hands</li>
-            <li>Added new Class-D viewmodel hands</li>
-            <li>Added new Scientist viewmodel hands</li>
+            <li>Fireproof vest now works correct</li> 
+            <li>Now CBU logo appears on scoreboard</li> 
+            <li>Gate B is only accessible with Keycard Level 5</li> 
+            <li>Camera has been adjusted to SCP-173's model (as SCP-173)</li> 
+            <li>SCP-106 is now harder to kill</li> 
+            <li>SCP-714 can be used to heal or protect against SCP-049, but has some durability</li> 
+            <li>SCP-500 now shows at 2 slot at weapon selector</li> 
+            <li>SCP-420-J now shows at 2 slot at weapon selector</li> 
+            <li>SCP-035 now cannot be infected by SCP-049</li> 
+            <li>SCP-035 now cannot be escorted by Chaos Insurgency</li> 
+            <li>Room SCP 012 now need Keycard 2 (gm_site19_old, gm_site19_v43)</li> 
+            <li>Room SCP 205 now need Keycard 2 (gm_site19_old, gm_site19_v43)</li> 
+            <li>Room SCP 035 now need Keycard 3 (gm_site19_old, gm_site19_v43)</li> 
+            <li>Ammo for SCP-035 deagle now are in clip automatically</li> 
+            <li>NTF and CI now have more ammo in clips</li> 
+            <li>Now only SCP's and Spectators see other specific SCP on the scoreboard</li> 
+            <li>Round again ends when there's only CI and SCP</li> 
+            <li>CI are visible for Class D and Spectators on the scoreboard</li> 
+            <li>SCP-049 viewmodel hands will no longer appear being as a different class</li> 
+            <li>Now MTF-NTF can spawn 20 times during round in 5 people groups max.</li> 
+            <li>Increased from "100" to "200" HP regeneration for SCP-106 after sending someone to Pocket Dimension</li> 
+            <li>Added new model for SCP-096</li> 
+            <li>Added new model for SCP-939</li> 
+            <li>Fixed SCP-096 viewmodel</li> 
+            <li>Fixed S-NAV Ultimate translation (English)</li> 
+            <li>SCP-939 now can heal 30 hp by attacking</li> 
+            <li>SCP-457 now can heal 20 hp every second when burn someone</li> 
+            <li>Added viewmodel for Medkit</li> 
+            <li>Added viewmodel for SCP-500</li> 
+            <li>Added SCP-714 UI icon</li> 
+            <li>Added SCP-096 UI icon</li> 
+            <li>Added SCP-939 UI icon</li> 
+            <li>Changed translations for "Guard" and "Security Chief"</li> 
+            <li>Changed round preparing time from "45 sec" to "60 sec"</li> 
+            <li>Changed round time from "32 min" to "45 min"</li> 
+            <li>Changed keycard level 4 spawns from "2" to "4"</li> 
+            <li>Fixed SCP-420-J textures, viewmodel and animation</li> 
+            <li>Fixed Radio model</li> 
+            <li>Fixed SCP-939 model</li> 
+            <li>Fixed round time (34 min 07 sec., more time gonna break timer)</li> 
+            <li>Added SCP-049-2 to forceclass (ULX)</li> 
+            <li>Added translation for MTF/CI Menu (Polish)</li> 
+            <li>Changed SCP-049 translation (all languages)</li> 
+            <li>Changed SCP-049-2 translation (all languages)</li> 
+            <li>Changed SCP-096 translation (all languages)</li> 
+            <li>Changed SCP-106 translation (all languages)</li> 
+            <li>Changed SCP-173 translation (all languages)</li> 
+            <li>Changed SCP-939 translation (all languages)</li> 
+            <li>Fixed Keycard 1 LUA error</li> 
+            <li>Added dropvest option in MTF/CI Menu</li> 
+            <li>Added new low HP effect from the newer Breach version</li> 
+            <li>Added new SCP-049-2 model</li> 
+            <li>Added new SCP-035 viewmodel hands</li> 
+            <li>Added new Class-D viewmodel hands</li> 
+            <li>Added new Scientist viewmodel hands</li> 
             <li>Added "Bright Weapons and Textures Fix" in options (F4)</li>
-            <li>Added "Language Selector" in options (F4)</li>
-            <li>Added "Stop Sounds" in options (F4)</li>
-            <li>Added "SweetFX" in options (F4)</li>
-            <li>Changed viewmodel FOV for SCP-500, MEDKIT</li>
-            <li>Changed viewmodel FOV for Keycards</li>
-            <li>Changed viewmodel FOV for Weapons (M249, FAMAS, USP, DEAGLE, DEAGLE SCP-035, P90)</li>
-            <li>Fixed camera after death as SCP-173</li>
-            <li>Fixed next Keycard 1 LUA error</li>
-            <li>MTF/CI Menu is now darker</li>
-            <li>Nerfed SCP-939</li>
-            <li>Reduced SCP-457 healing from "20 hp" to "5 hp"</li>
-            <li>Added SCP-1048b</li>
-            <li>Added Medic</li>
-            <li>Added model for Medic</li>
-            <li>Added Ultra Medkit</li>
-            <li>Added Camera View (item) [can be destroyed when camera gets shot] (credit: @danx91)</li>
-            <li>Added again Special Rounds</li>
-            <li>Added again "Special Round Percentage" options in server configurator</li>
-            <li>Added Special Rounds commands "br_specialround_percentage" "br_specialround_forcenext"</li>
-            <li>Added Debug menu (br_debugmenu 0/1 in console or in F4 options)</li>
-            <li>Added again "Blinking time" options in server configurator</li>
-            <li>Added descriptions menu (all classes) (F1)</li>
-            <li>Added Class Menu (F2)</li>
-            <li>Added notifications (can be disabled in F4 menu)</li>
-            <li>Added sound when someone got caught to Pocket Dimension</li>
-            <li>Added XGUI server settings in ULX menu (SUPERADMIN ONLY) (credit: @Ruscondil)</li>
-            <li>Added "force_class" and "force_scp" in ULX menu (SUPERADMIN ONLY)</li>
-            <li>Added SCP-008-2 to forceclass (ULX)</li>
-            <li>Added text "Access Granted to SCP-178/Medical Bay etc. (gm_site19_old) (gm_site19_v43)</li>
-            <li>Added missing keycard sounds for some doors</li>
-            <li>Added again Karma options in server configuration (if you want to use Karma, enable it before launching the server)</li>
-            <li>Added Polish MTF announcement for translation (Polish)</li>
-            <li>Added option for no longer dissapearing corpses in server configurator</li>
-            <li>Added low HP effect for SCP-035 when have less than 80 HP</li>
-            <li>Added "Weapon movement" in options (F4)</li>
+            <li>Added "Language Selector" in options (F4)</li> 
+            <li>Added "Stop Sounds" in options (F4)</li> 
+            <li>Added "SweetFX" in options (F4)</li> 
+            <li>Changed viewmodel FOV for SCP-500, MEDKIT</li> 
+            <li>Changed viewmodel FOV for Keycards</li> 
+            <li>Changed viewmodel FOV for Weapons (M249, FAMAS, USP, DEAGLE, DEAGLE SCP-035, P90)</li> 
+            <li>Fixed camera after death as SCP-173</li> 
+            <li>Fixed next Keycard 1 LUA error</li> 
+            <li>MTF/CI Menu is now darker</li> 
+            <li>Nerfed SCP-939</li> 
+            <li>Reduced SCP-457 healing from "20 hp" to "5 hp"</li> 
+            <li>Added SCP-1048b</li> 
+            <li>Added Medic</li> 
+            <li>Added model for Medic</li> 
+            <li>Added Ultra Medkit</li> 
+            <li>Added Camera View (item) [can be destroyed when camera gets shot] (credit: @danx91)</li> 
+            <li>Added again Special Rounds</li> 
+            <li>Added again "Special Round Percentage" options in server configurator</li> 
+            <li>Added Special Rounds commands "br_specialround_percentage" "br_specialround_forcenext"</li> 
+            <li>Added Debug menu (br_debugmenu 0/1 in console or in F4 options)</li> 
+            <li>Added again "Blinking time" options in server configurator</li> 
+            <li>Added descriptions menu (all classes) (F1)</li> 
+            <li>Added Class Menu (F2)</li> 
+            <li>Added notifications (can be disabled in F4 menu)</li> 
+            <li>Added sound when someone got caught to Pocket Dimension</li> 
+            <li>Added XGUI server settings in ULX menu (SUPERADMIN ONLY) (credit: @Ruscondil)</li> 
+            <li>Added "force_class" and "force_scp" in ULX menu (SUPERADMIN ONLY)</li> 
+            <li>Added SCP-008-2 to forceclass (ULX)</li> 
+            <li>Added text "Access Granted to SCP-178/Medical Bay etc. (gm_site19_old) (gm_site19_v43)</li> 
+            <li>Added missing keycard sounds for some doors</li> 
+            <li>Added again Karma options in server configuration (if you want to use Karma, enable it before launching the server)</li> 
+            <li>Added Polish MTF announcement for translation (Polish)</li> 
+            <li>Added option for no longer dissapearing corpses in server configurator</li> 
+            <li>Added low HP effect for SCP-035 when have less than 80 HP</li> 
+            <li>Added "Weapon movement" in options (F4)</li> 
             <li>Added uses text for Medkit, Ultramedkit, SCP-500, SCP-420-J</li>
-            <li>Added click sound in F4 menu</li>
-            <li>Added ConVar for Livecolors/SweetFX (You can enabled it in F4 menu or console command br_livecolors_toggle 0/1)</li>
-            <li>Added text about gamemode version (You can enabled it in F4 menu or console command br_show_version_text 0/1)</li>
-            <li>Added FPS Counter (You can enabled it in F4 menu or console command br_show_fps 0/1)</li>
-            <li>Added Ping Counter (You can enabled it in F4 menu or console command br_show_ping 0/1)</li>
-            <li>Changed a little new SCP-049-2 model</li>
-            <li>Changed whole "Settings" tab (F4)</li>
-            <li>Changed viewmodel FOV for SCP-096</li>
-            <li>Changed SCP-096 SWEP (Now have longer rage)</li>
-            <li>Changed translations for "Guard", "Security Chief", "CI Soldier" and "Researcher" (all languages)</li>
-            <li>Changed weapon movement command ("br_weapon_movement" and "br_weapon_movement_lag_scale")</li>
-            <li>Changed position and color of round type text</li>
-            <li>Changed "Credits" tab (F4)</li>
-            <li>Removed "Roles" tabs (F4)</li>
-            <li>Fixed funny bug with spamming animation SCP-420-J</li>
-            <li>Fixed Radio channel changing sound when it was turned off</li>
-            <li>Fixed console error with Radio model</li>
-            <li>Fixed bugs with healing someone with SCP-500</li>
-            <li>Fixed SCP-096 secondary attack will no more *click*</li>
-            <li>Fixed SCP-939 secondary attack will no more *click*</li>
-            <li>F4 menu can be accesed by typing "!settings" on chat</li>
-            <li>Now when player disconnect, inventory get dropped</li>
-            <li>Now when player got killed, vest will drop</li>
-            <li>Reduced file size a little (some models are in one package)</li>
-            <li>Weapons now have translations (credit: @danx91)</li>
-            <li>Changed a little SCP's SWEP's</li>
+            <li>Added click sound in F4 menu</li> 
+            <li>Added ConVar for Livecolors/SweetFX (You can enabled it in F4 menu or console command br_livecolors_toggle 0/1)</li> 
+            <li>Added text about gamemode version (You can enabled it in F4 menu or console command br_show_version_text 0/1)</li> 
+            <li>Added FPS Counter (You can enabled it in F4 menu or console command br_show_fps 0/1)</li> 
+            <li>Added Ping Counter (You can enabled it in F4 menu or console command br_show_ping 0/1)</li> 
+            <li>Changed a little new SCP-049-2 model</li> 
+            <li>Changed whole "Settings" tab (F4)</li> 
+            <li>Changed viewmodel FOV for SCP-096</li> 
+            <li>Changed SCP-096 SWEP (Now have longer rage)</li> 
+            <li>Changed translations for "Guard", "Security Chief", "CI Soldier" and "Researcher" (all languages)</li> 
+            <li>Changed weapon movement command ("br_weapon_movement" and "br_weapon_movement_lag_scale")</li> 
+            <li>Changed position and color of round type text</li> 
+            <li>Changed "Credits" tab (F4)</li> 
+            <li>Removed "Roles" tabs (F4)</li> 
+            <li>Fixed funny bug with spamming animation SCP-420-J</li> 
+            <li>Fixed Radio channel changing sound when it was turned off</li> 
+            <li>Fixed console error with Radio model</li> 
+            <li>Fixed bugs with healing someone with SCP-500</li> 
+            <li>Fixed SCP-096 secondary attack will no more *click*</li> 
+            <li>Fixed SCP-939 secondary attack will no more *click*</li> 
+            <li>F4 menu can be accesed by typing "!settings" on chat</li> 
+            <li>Now when player disconnect, inventory get dropped</li> 
+            <li>Now when player got killed, vest will drop</li> 
+            <li>Reduced file size a little (some models are in one package)</li> 
+            <li>Weapons now have translations (credit: @danx91)</li> 
+            <li>Changed a little SCP's SWEP's</li> 
             <li>Fixed SCP Door's after preparing</li>
-        </ul>
-      </div>
-    </section>
-  </main>
-</body>
+          </ul> 
+        </div> 
+      </section> 
+    </main> 
+  </body> 
 </html>
