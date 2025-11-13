@@ -1,5 +1,12 @@
 @import url('shared.css');
 
+/* Nieskrolowalna strona */
+html, body {
+  overflow: hidden; /* blokuje przewijanie w pionie i poziomie */
+  height: 100%;
+  margin: 0;
+}
+
 /* Specyficzne style dla index.html */
 section {
   padding: 100px; /* nadpisuje domyślne 40px ze shared.css */
