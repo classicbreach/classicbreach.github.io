@@ -1,128 +1,43 @@
 <!DOCTYPE html>
 <html lang="pl">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="images/icon.png" type="image/x-icon">
-    <title>Classic Breach Authors</title>
-    <style>
-    body {
-      margin: 0;
-      font-family: Trebuchet MS, sans-serif;
-      display: flex;
-      background-color: #111;
-       color: #ffd700;
-    }
-
-    /* Lewy panel menu */
-    nav {
-      width: 300px;
-      background-color: #1c1c1c;
-      box-shadow: 2px 0 5px rgba(0,0,0,0.4);
-      position: fixed;         /* pasek zawsze przyklejony */
-      top: 0;
-      left: 0;
-      bottom: 0;
-      display: flex;
-      flex-direction: column;
-      justify-content: center; /* wyśrodkowanie linków w pionie */
-      align-items: center;     /* wyśrodkowanie w poziomie */
-    }
-
-    nav a {
-      display: block;
-      width: 70%;
-      text-align: center;
-      padding: 11px 20px;
-      margin: 10px 0;
-      background: #111;
-      border: 1px solid #444;
-      border-radius: 6px;
-      text-decoration: none;
-       color: #ffd700;
-      font-weight: bold;
-      transition: 0.3s;
-    }
-
-    nav a:hover {
-      background-color: #333;
-      border-color: #666;
-    }
-
-    /* Główna sekcja */
-    main {
-      margin-left: 300px; /* zostaw miejsce na pasek */
-      flex: 1;
-      display: flex;
-      flex-direction: column;
-    }
-
-    header {
-      background: #222;
-      color: white;
-      text-align: center;
-      padding: 20px;
-      font-size: 1.5rem;
-      font-weight: bold;
-      border-bottom: 1px solid #444;
-    }
-
-    section {
-      flex: 1;
-      display: flex;
-      justify-content: center;   /* wyśrodkowanie w poziomie */
-      align-items: center;       /* wyśrodkowanie w pionie */
-      text-align: left;
-      padding: 40px;
-    }
-
-      /* Lista autorów */
-      .authors-list {
-        display: flex;
-        flex-direction: column;
-        gap: 15px;
-      }
-
-      .authors-item {
-        display: block;
-        width: 100%;            /* szerokość względem sekcji */
-        max-width: 200px;     /* docelowo ~4x większe */
-        padding: 20px 100px;    /* zwiększony padding */
-        background: #1c1c1c;
-        border: 1px solid #333;
-        border-radius: 8px;
-         color: #ffd700;
-        text-decoration: none;
-        font-size: 1.3rem;
-        transition: 0.3s;
-        text-align: center;    /* wyśrodkowanie tekstu */
-      }
-
-      .authors-item:hover {
-        background: #2a2a2a;
-        border-color: #555;
-        transform: translateX(5px);
-      }
-    </style>
-  </head>
- <body>
-    <nav>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="images/icon.png" type="image/x-icon">
+  <link rel="stylesheet" href="css/shared.css">
+  <link rel="stylesheet" href="css/authors.css">
+  <title>Classic Breach Authors</title>
+</head>
+<body>
+  <nav>
     <a href="index.html">Back to Main Page</a>
+  </nav>
 
-    </nav>
+  <main>
+    <header>
+      Classic Breach Authors
+    </header>
+    <section>
+      <div class="authors-list">
 
-    <main>
-      <header>
-        Classic Breach Authors
-      </header>
-      <section>
-        <div class="authors-list">
-          <a href="https://steamcommunity.com/id/77zaro" target="_blank" rel="noopener noreferrer" class="authors-item"><abbr title="Main Developer">Dragon4k</abbr></a>      
-          <a href="https://steamcommunity.com/profiles/76561198995203527" target="_blank" rel="noopener noreferrer" class="authors-item"><abbr title="Developer and Page Creator">gracz scp (prorock)</abbr></a>      
-        </div>
-      </section>
-    </main>
-  </body>
+        <a href="https://steamcommunity.com/id/77zaro" 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          class="authors-item"
+          title="Main Developer">
+          Dragon4k
+        </a>
+
+        <a href="https://steamcommunity.com/profiles/76561198995203527" 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          class="authors-item"
+          title="Developer and Page Creator">
+          gracz scp (prorock)
+        </a>
+        
+      </div>
+    </section>
+  </main>
+</body>
 </html>
-
-
