@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="../images/icon.png" type="image/x-icon">
+  <link rel="stylesheet" href="css/shared.css">
+  <link rel="stylesheet" href="css/form.css">
+  <title>Classic Breach Form</title>
+</head>
+<body>
+  <nav>
+    <a href="index.html">Back to Main Page</a>
+  </nav>
+
+  <main>
+    <header>
+      Classic Breach Form
+    </header>
+
+    <section>
+      <div class="Form">
+        <form id="cbform" action="/server.js" method="post">
+
+          Discord Account Name  
+          <input type="text" placeholder="Uniqe name" id="name" required>
+          <br><br>
+
+          Steam URL  
+          <input type="url" name="steamurl" id="steamurl" placeholder="https://steamcommunity.com/..." required>
+          <br><br>
+          Date of sending  
+          <input type="datetime-local" name="senddate" id="senddate" required>
+          <br><br>
+          Textbox <br>
+          <textarea name="opinion" id="opinion" cols="30" rows="10" placeholder="Write your Suggestion/Bug/Opinion here"></textarea>
+          <br><br>
+          <input type="button" value="Send it" onclick="validateForm()">
+          <input type="reset" value="Reset it">
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <script src="js/form.js"></script>
+  <script src="js/webhook.js"></script>
+
+
+</body>
+</html>
+
+
+
+
